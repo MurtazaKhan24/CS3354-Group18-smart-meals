@@ -1,1 +1,1 @@
-# CS3354-Group18-smart-meals
+# CS3354-Group18-Smart-Meals
