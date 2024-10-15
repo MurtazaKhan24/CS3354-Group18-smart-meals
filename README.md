@@ -9,3 +9,20 @@ Many meal planner apps available today require users to manually add meals for e
 
 ## Value Proposition
 This application helps consumers brainstorm ideas on what meals they can cook with the items in their pantry. Many amateurs do not know the amount of meals they have at their disposal. This will give them inspiration they need to cook more at home and saves time spent on meal planning.
+
+## Tools and Resources
+- Front end:
+  - HTML
+  - CSS
+  - Javascript using React.js
+- Backend: 
+  - Django (Python)
+- Database:
+  - MySQL
+- APIs:
+  - NutritionX API
+- Hosting:
+  - Microsoft Azure
+- Version Control:
+  - Git
+
