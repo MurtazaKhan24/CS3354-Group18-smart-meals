@@ -1,15 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Dashboard from './pages/Dashboard';
+import Ingredients from './pages/Ingredients'; // Example component for each page
+import Nutrition from './pages/Nutrition';
+import ShoppingList from './pages/ShoppingList';
+import Login from './pages/Login';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Hello, Tailwind with React!
-      </h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/ingredients" element={<Ingredients />} />
+        <Route path="/nutrition" element={<Nutrition />} />
+        <Route path="/shopping-list" element={<ShoppingList />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
+
+
 
